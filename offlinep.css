@@ -1,0 +1,50 @@
+.body{
+  background-color: #FF5151;
+  background-image: url("assets/offline-bg.svg");
+  background-position: 60% 20%;
+  background-size: 130% 140%;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.container{
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%,50%);
+  width: 90%;
+  margin: 5% auto auto auto ;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.citation{
+
+  display: block;
+  text-align: left;
+  font-size: 60px;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+}
+.button-input{
+
+  width:10%;
+  font-size: 18px;
+  height: 40px;
+  margin-right: 8%;
+  color: white;
+  background-color:transparent;
+  font-family: 'Rubik', sans-serif;
+  border: 1px solid white;
+  outline: none;
+}
+.button-input:hover{
+  color: #FF5151;
+  background-color: white;
+}
